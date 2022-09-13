@@ -31,7 +31,7 @@ $Rocky -> HowOld(10 . " Years old");
 /* Variables inside a Class can also be
    private public protected.
    But for private you have to replace "var $alter;" 
-   with "privat $alter;"
+   with "private $alter;"
     Like this : 
 */
 /*
