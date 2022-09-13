@@ -25,3 +25,24 @@ class Hund {
 class Dalmatiner extends Hund {}
 $Rocky = new Hund();
 $Rocky -> HowOld(10 . " Years old");
+
+
+
+/* Variables inside a Class can also be
+   private public protected.
+   But for private you have to replace "var $alter;" 
+   with "privat $alter;"
+    Like this : 
+*/
+/*
+class Mensch {
+    private $alter;
+    function __construct($alter){
+        $this -> alter = $alter;
+        echo $this -> alter;
+    }
+}
+
+$Onur = new Mensch (20);
+
+*/
